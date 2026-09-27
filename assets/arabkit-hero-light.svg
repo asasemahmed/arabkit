@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">ArabKit: agent skills that feel local in every Arab country</title>
+  <desc id="desc">Banner with the ArabKit wordmark beside an emblem: a golden eight-point star inside a ring of 22 dots, one for each Arab country, around the Arabic letter ayn.</desc>
+
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FCFAF5"/>
+      <stop offset="1" stop-color="#F3EEE3"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1F8A70"/>
+      <stop offset="1" stop-color="#0E5E4E"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F1D48A"/>
+      <stop offset=".55" stop-color="#C99A2E"/>
+      <stop offset="1" stop-color="#9C7414"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#C99A2E" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#C99A2E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="topLight" cx=".15" cy="0" r="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="stars" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M24.0 15.0 L26.6 17.6 L30.4 17.6 L30.4 21.4 L33.0 24.0 L30.4 26.6 L30.4 30.4 L26.6 30.4 L24.0 33.0 L21.4 30.4 L17.6 30.4 L17.6 26.6 L15.0 24.0 L17.6 21.4 L17.6 17.6 L21.4 17.6 Z" fill="none" stroke="#1B2A2F" stroke-opacity=".045" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFF" stop-opacity="0"/>
+      <stop offset=".45" stop-color="#FFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FFF" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="patternMask"><rect width="1280" height="420" fill="url(#fade)"/></mask>
+  </defs>
+
+  <rect width="1280" height="420" rx="26" fill="url(#paper)"/>
+  <rect width="1280" height="420" rx="26" fill="url(#stars)" mask="url(#patternMask)"/>
+  <rect width="1280" height="420" rx="26" fill="url(#topLight)"/>
+  <rect x=".75" y=".75" width="1278.5" height="418.5" rx="25.5" fill="none" stroke="#E4DCCB"/>
+  <rect x="11" y="11" width="1258" height="398" rx="18" fill="none" stroke="#EDE6D6"/>
+
+  <path d="M100 117 L107 124 L100 131 L93 124 Z" fill="#1F8A70"/>
+  <text x="122" y="130" fill="#9A7520" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="5">OPEN SOURCE • AI AGENT SKILLS</text>
+
+  <text x="94" y="222" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="800">
+    <tspan fill="#14211F">Arab</tspan><tspan fill="url(#accent)">Kit</tspan><tspan fill="#C99A2E">.</tspan>
+  </text>
+
+  <text x="96" y="268" fill="#52605C" font-family="Arial, Helvetica, sans-serif" font-size="25">Skills that feel local in every Arab country.</text>
+  <text x="96" y="312" fill="#8A6A1C" font-family="'Segoe UI', 'Traditional Arabic', Arial, sans-serif" font-size="23">لغة واحدة، وأسواق كثيرة</text>
+  <text x="96" y="352" fill="#52605C" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="2">22 COUNTRIES  ·  ONE SHARED FOUNDATION</text>
+
+  <circle cx="1010" cy="210" r="200" fill="url(#glow)"/>
+  <circle cx="1010" cy="210" r="158" fill="none" stroke="#D9CDB3" stroke-width="1.5"/>
+  <circle cx="1010.0" cy="52.0" r="5.2" fill="#1F8A70"/><circle cx="1054.5" cy="58.4" r="5.2" fill="#C99A2E"/><circle cx="1095.4" cy="77.1" r="5.2" fill="#1F8A70"/><circle cx="1129.4" cy="106.5" r="5.2" fill="#C99A2E"/><circle cx="1153.7" cy="144.4" r="5.2" fill="#1F8A70"/><circle cx="1166.4" cy="187.5" r="5.2" fill="#C99A2E"/><circle cx="1166.4" cy="232.5" r="5.2" fill="#1F8A70"/><circle cx="1153.7" cy="275.6" r="5.2" fill="#C99A2E"/><circle cx="1129.4" cy="313.5" r="5.2" fill="#1F8A70"/><circle cx="1095.4" cy="342.9" r="5.2" fill="#C99A2E"/><circle cx="1054.5" cy="361.6" r="5.2" fill="#1F8A70"/><circle cx="1010.0" cy="368.0" r="5.2" fill="#C99A2E"/><circle cx="965.5" cy="361.6" r="5.2" fill="#1F8A70"/><circle cx="924.6" cy="342.9" r="5.2" fill="#C99A2E"/><circle cx="890.6" cy="313.5" r="5.2" fill="#1F8A70"/><circle cx="866.3" cy="275.6" r="5.2" fill="#C99A2E"/><circle cx="853.6" cy="232.5" r="5.2" fill="#1F8A70"/><circle cx="853.6" cy="187.5" r="5.2" fill="#C99A2E"/><circle cx="866.3" cy="144.4" r="5.2" fill="#1F8A70"/><circle cx="890.6" cy="106.5" r="5.2" fill="#C99A2E"/><circle cx="924.6" cy="77.1" r="5.2" fill="#1F8A70"/><circle cx="965.5" cy="58.4" r="5.2" fill="#C99A2E"/>
+  <path d="M1010.0 92.0 L1044.6 126.6 L1093.4 126.6 L1093.4 175.4 L1128.0 210.0 L1093.4 244.6 L1093.4 293.4 L1044.6 293.4 L1010.0 328.0 L975.4 293.4 L926.6 293.4 L926.6 244.6 L892.0 210.0 L926.6 175.4 L926.6 126.6 L975.4 126.6 Z" fill="none" stroke="url(#gold)" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M1010.0 114.0 L1038.1 142.1 L1077.9 142.1 L1077.9 181.9 L1106.0 210.0 L1077.9 238.1 L1077.9 277.9 L1038.1 277.9 L1010.0 306.0 L981.9 277.9 L942.1 277.9 L942.1 238.1 L914.0 210.0 L942.1 181.9 L942.1 142.1 L981.9 142.1 Z" fill="none" stroke="url(#gold)" stroke-width="1.5" stroke-opacity=".6" stroke-linejoin="round"/>
+  <circle cx="1010" cy="210" r="62" fill="none" stroke="url(#accent)" stroke-width="2"/>
+  <text x="1010" y="244" text-anchor="middle" fill="#14211F" font-family="'Segoe UI', 'Traditional Arabic', Arial, sans-serif" font-size="92" font-weight="700">ع</text>
+</svg>
