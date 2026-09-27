@@ -6,7 +6,7 @@
 | Skill name prefix | `somalia-` |
 | Calling code | `+252` |
 | Currency | `SOS` |
-| Region | East Africa |
+| Region | Horn of Africa and Indian Ocean |
 | Status | No skills yet. Looking for contributors. |
 
 Arabic is an official language alongside Somali, which is the main everyday language. Skills should state which languages a product supports and when Arabic is the right choice.

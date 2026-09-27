@@ -6,7 +6,7 @@
 | Skill name prefix | `uae-` |
 | Calling code | `+971` |
 | Currency | `AED` |
-| Region | Gulf |
+| Region | Arabian Peninsula |
 | Status | No skills yet. Looking for contributors. |
 
 ## Skills

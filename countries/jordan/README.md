@@ -6,7 +6,7 @@
 | Skill name prefix | `jordan-` |
 | Calling code | `+962` |
 | Currency | `JOD` |
-| Region | Levant |
+| Region | Levant and Iraq |
 | Status | No skills yet. Looking for contributors. |
 
 ## Skills

@@ -6,7 +6,7 @@
 | Skill name prefix | `saudi-` |
 | Calling code | `+966` |
 | Currency | `SAR` |
-| Region | Gulf |
+| Region | Arabian Peninsula |
 | Status | No skills yet. Looking for contributors. |
 
 ## Skills

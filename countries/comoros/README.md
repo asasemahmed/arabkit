@@ -6,7 +6,7 @@
 | Skill name prefix | `comoros-` |
 | Calling code | `+269` |
 | Currency | `KMF` |
-| Region | East Africa |
+| Region | Horn of Africa and Indian Ocean |
 | Status | No skills yet. Looking for contributors. |
 
 Arabic is an official language alongside Comorian and French. Skills should state which languages a product supports and when Arabic is the right choice.

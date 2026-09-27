@@ -6,7 +6,7 @@
 | Skill name prefix | `iraq-` |
 | Calling code | `+964` |
 | Currency | `IQD` |
-| Region | Mesopotamia |
+| Region | Levant and Iraq |
 | Status | No skills yet. Looking for contributors. |
 
 ## Skills

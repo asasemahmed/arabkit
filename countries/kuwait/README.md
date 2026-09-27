@@ -6,7 +6,7 @@
 | Skill name prefix | `kuwait-` |
 | Calling code | `+965` |
 | Currency | `KWD` |
-| Region | Gulf |
+| Region | Arabian Peninsula |
 | Status | No skills yet. Looking for contributors. |
 
 ## Skills

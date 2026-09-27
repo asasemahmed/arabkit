@@ -6,7 +6,7 @@
 | Skill name prefix | `palestine-` |
 | Calling code | `+970` |
 | Currency | `ILS, JOD` |
-| Region | Levant |
+| Region | Levant and Iraq |
 | Status | No skills yet. Looking for contributors. |
 
 Several currencies are in everyday use (mainly ILS and JOD). Skills for this folder should say which one a product uses and never assume a single currency.

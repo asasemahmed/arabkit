@@ -6,7 +6,7 @@
 | Skill name prefix | `qatar-` |
 | Calling code | `+974` |
 | Currency | `QAR` |
-| Region | Gulf |
+| Region | Arabian Peninsula |
 | Status | No skills yet. Looking for contributors. |
 
 ## Skills

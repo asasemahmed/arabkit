@@ -6,7 +6,7 @@
 | Skill name prefix | `lebanon-` |
 | Calling code | `+961` |
 | Currency | `LBP` |
-| Region | Levant |
+| Region | Levant and Iraq |
 | Status | No skills yet. Looking for contributors. |
 
 ## Skills

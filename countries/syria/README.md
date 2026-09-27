@@ -6,7 +6,7 @@
 | Skill name prefix | `syria-` |
 | Calling code | `+963` |
 | Currency | `SYP` |
-| Region | Levant |
+| Region | Levant and Iraq |
 | Status | No skills yet. Looking for contributors. |
 
 ## Skills

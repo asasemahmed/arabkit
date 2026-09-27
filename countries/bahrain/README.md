@@ -6,7 +6,7 @@
 | Skill name prefix | `bahrain-` |
 | Calling code | `+973` |
 | Currency | `BHD` |
-| Region | Gulf |
+| Region | Arabian Peninsula |
 | Status | No skills yet. Looking for contributors. |
 
 ## Skills
