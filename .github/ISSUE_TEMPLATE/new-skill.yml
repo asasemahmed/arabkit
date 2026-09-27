@@ -1,0 +1,32 @@
+name: Propose a skill
+description: Suggest a new skill for a country or for shared/.
+title: "[Skill] <prefix>-<topic>"
+labels: ["skill-proposal"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Skill name
+      description: Must start with the country prefix from countries.json, or arabic- for shared/.
+      placeholder: morocco-copy
+    validations:
+      required: true
+  - type: textarea
+    id: failure
+    attributes:
+      label: What do agents get wrong today?
+      description: A real mistake you have seen, with an example if possible.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: What the skill would cover
+    validations:
+      required: true
+  - type: checkboxes
+    id: willing
+    attributes:
+      label: Contribution
+      options:
+        - label: I can write this skill myself.

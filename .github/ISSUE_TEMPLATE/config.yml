@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Contribution guide
+    url: https://github.com/asasemahmed/arabkit/blob/main/CONTRIBUTING.md
+    about: Where skills go, naming rules, and how to validate before opening a pull request.

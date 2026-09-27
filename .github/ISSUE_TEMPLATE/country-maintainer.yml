@@ -1,0 +1,49 @@
+name: Volunteer as a country maintainer
+description: Offer to review and grow the skills for one Arab country.
+title: "[Maintainer] <country>"
+labels: ["maintainer", "country"]
+body:
+  - type: dropdown
+    id: country
+    attributes:
+      label: Country
+      options:
+        - Algeria
+        - Bahrain
+        - Comoros
+        - Djibouti
+        - Egypt
+        - Iraq
+        - Jordan
+        - Kuwait
+        - Lebanon
+        - Libya
+        - Mauritania
+        - Morocco
+        - Oman
+        - Palestine
+        - Qatar
+        - Saudi Arabia
+        - Somalia
+        - Sudan
+        - Syria
+        - Tunisia
+        - United Arab Emirates
+        - Yemen
+        - Shared (all countries)
+    validations:
+      required: true
+  - type: textarea
+    id: connection
+    attributes:
+      label: Your connection to this country
+      description: For example, you live there, build products for its users, or work in its localization.
+    validations:
+      required: true
+  - type: textarea
+    id: plan
+    attributes:
+      label: First skills you would like to add or review
+      placeholder: "saudi-copy: when to use Saudi dialect vs MSA in apps..."
+    validations:
+      required: false
