@@ -1,49 +1,107 @@
 <div align="center">
 
-# ArabKit
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/arabkit-hero-dark.svg">
+  <img src="assets/arabkit-hero-light.svg" alt="ArabKit: agent skills that feel local in every Arab country" width="100%">
+</picture>
 
-### Agent skills for building products that feel local in every Arab country.
+<p>
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-1F8A70?style=flat-square"></a>
+  <a href="#countries"><img alt="Countries: 22" src="https://img.shields.io/badge/countries-22-C99A2E?style=flat-square"></a>
+  <a href="#countries"><img alt="Skills" src="https://img.shields.io/badge/skills-0-14211F?style=flat-square"></a>
+  <a href="CONTRIBUTING.md"><img alt="Contributors welcome" src="https://img.shields.io/badge/contributors-welcome-1F8A70?style=flat-square"></a>
+  <a href="https://github.com/asasemahmed/arabkit/actions/workflows/validate.yml"><img alt="Validate" src="https://github.com/asasemahmed/arabkit/actions/workflows/validate.yml/badge.svg"></a>
+</p>
 
-[Countries](#countries) · [How it works](#how-it-works) · [Contribute](CONTRIBUTING.md) · [اقرأ بالعربي](README.ar.md)
+**[Countries](#countries)** · **[How it works](#how-it-works)** · **[Contribute](#claim-your-country)** · **[اقرأ بالعربية](README.ar.md)**
 
 </div>
 
 ---
 
-Arabic is one language with many markets. A checkout that feels natural in Cairo can feel foreign in Riyadh or Casablanca: the dialect changes, and so do phone formats, addresses, currencies, payment methods, and what people trust.
+> **Arabic is one language with many markets.** A checkout that feels natural in Cairo can feel foreign in Riyadh or Casablanca. ArabKit gives AI coding agents the local knowledge to get each one right.
 
-ArabKit is an open-source library of AI agent skills organized **by country**. Each Arab country has its own folder, maintained by people who live there and build for it. Skills that hold everywhere live in `shared/`.
+ArabKit is an open-source library of AI agent skills, organized **by country**. Every Arab country has its own folder, written and reviewed by people who live there and build for its users. Guidance that holds everywhere, like Arabic typography and RTL layout, lives in one shared folder.
 
-> **Status:** the structure is ready and every country folder is open. There are no skills yet. The first contributors for each country shape how it is done. See [CONTRIBUTING.md](CONTRIBUTING.md).
+It works with Claude Code, Codex, Cursor, Gemini CLI, and any agent that loads `SKILL.md` files.
+
+> [!NOTE]
+> **ArabKit is just getting started.** The structure is ready and all 22 country folders are open, but there are no skills yet. The first contributors for each country decide how it is done. [Claim your country.](#claim-your-country)
+
+## Why country by country?
+
+The same screen needs different answers depending on where its users are:
+
+| | 🇪🇬 Egypt | 🇸🇦 Saudi Arabia | 🇦🇪 UAE | 🇲🇦 Morocco |
+|---|---|---|---|---|
+| Phone | `+20` | `+966` | `+971` | `+212` |
+| Currency | `EGP` | `SAR` | `AED` | `MAD` |
+| Weekend | Fri–Sat | Fri–Sat | Sat–Sun | Sat–Sun |
+| Everyday dialect | Egyptian | Najdi, Hejazi, Gulf | Emirati, Gulf | Darija |
+| Second language in products | English | English | English | French |
+
+An agent that only knows "Arabic" will guess at every row. Country skills replace the guesses with what local builders actually know: which register to write in, how addresses and phone numbers are entered, which payment methods people expect, and what makes a product trustworthy.
 
 ## Countries
 
-| Country | الدولة | Skill prefix | Skills |
-|---|---|---|---|
-| 🇩🇿 [Algeria](countries/algeria/README.md) | الجزائر | `algeria-` | 0 |
-| 🇧🇭 [Bahrain](countries/bahrain/README.md) | البحرين | `bahrain-` | 0 |
-| 🇰🇲 [Comoros](countries/comoros/README.md) | جزر القمر | `comoros-` | 0 |
-| 🇩🇯 [Djibouti](countries/djibouti/README.md) | جيبوتي | `djibouti-` | 0 |
-| 🇪🇬 [Egypt](countries/egypt/README.md) | مصر | `egypt-` | 0 |
-| 🇮🇶 [Iraq](countries/iraq/README.md) | العراق | `iraq-` | 0 |
-| 🇯🇴 [Jordan](countries/jordan/README.md) | الأردن | `jordan-` | 0 |
-| 🇰🇼 [Kuwait](countries/kuwait/README.md) | الكويت | `kuwait-` | 0 |
-| 🇱🇧 [Lebanon](countries/lebanon/README.md) | لبنان | `lebanon-` | 0 |
-| 🇱🇾 [Libya](countries/libya/README.md) | ليبيا | `libya-` | 0 |
-| 🇲🇷 [Mauritania](countries/mauritania/README.md) | موريتانيا | `mauritania-` | 0 |
-| 🇲🇦 [Morocco](countries/morocco/README.md) | المغرب | `morocco-` | 0 |
-| 🇴🇲 [Oman](countries/oman/README.md) | عُمان | `oman-` | 0 |
-| 🇵🇸 [Palestine](countries/palestine/README.md) | فلسطين | `palestine-` | 0 |
-| 🇶🇦 [Qatar](countries/qatar/README.md) | قطر | `qatar-` | 0 |
-| 🇸🇦 [Saudi Arabia](countries/saudi-arabia/README.md) | السعودية | `saudi-` | 0 |
-| 🇸🇴 [Somalia](countries/somalia/README.md) | الصومال | `somalia-` | 0 |
-| 🇸🇩 [Sudan](countries/sudan/README.md) | السودان | `sudan-` | 0 |
-| 🇸🇾 [Syria](countries/syria/README.md) | سوريا | `syria-` | 0 |
-| 🇹🇳 [Tunisia](countries/tunisia/README.md) | تونس | `tunisia-` | 0 |
-| 🇦🇪 [United Arab Emirates](countries/uae/README.md) | الإمارات | `uae-` | 0 |
-| 🇾🇪 [Yemen](countries/yemen/README.md) | اليمن | `yemen-` | 0 |
+Each folder has a README with the country's codes, skill prefix, and ideas for first skills.
 
-Arabic-wide skills for every country go in [`shared/`](shared/README.md), with the prefix `arabic-`.
+<!-- countries:start -->
+
+### Arabian Peninsula
+
+| | Country | الدولة | Prefix | Skills |
+|---|---|---|---|---|
+| 🇧🇭 | [Bahrain](countries/bahrain/README.md) | البحرين | `bahrain-` | Open for contributors |
+| 🇰🇼 | [Kuwait](countries/kuwait/README.md) | الكويت | `kuwait-` | Open for contributors |
+| 🇴🇲 | [Oman](countries/oman/README.md) | عُمان | `oman-` | Open for contributors |
+| 🇶🇦 | [Qatar](countries/qatar/README.md) | قطر | `qatar-` | Open for contributors |
+| 🇸🇦 | [Saudi Arabia](countries/saudi-arabia/README.md) | السعودية | `saudi-` | Open for contributors |
+| 🇦🇪 | [United Arab Emirates](countries/uae/README.md) | الإمارات | `uae-` | Open for contributors |
+| 🇾🇪 | [Yemen](countries/yemen/README.md) | اليمن | `yemen-` | Open for contributors |
+
+### Levant and Iraq
+
+| | Country | الدولة | Prefix | Skills |
+|---|---|---|---|---|
+| 🇮🇶 | [Iraq](countries/iraq/README.md) | العراق | `iraq-` | Open for contributors |
+| 🇯🇴 | [Jordan](countries/jordan/README.md) | الأردن | `jordan-` | Open for contributors |
+| 🇱🇧 | [Lebanon](countries/lebanon/README.md) | لبنان | `lebanon-` | Open for contributors |
+| 🇵🇸 | [Palestine](countries/palestine/README.md) | فلسطين | `palestine-` | Open for contributors |
+| 🇸🇾 | [Syria](countries/syria/README.md) | سوريا | `syria-` | Open for contributors |
+
+### Nile Valley
+
+| | Country | الدولة | Prefix | Skills |
+|---|---|---|---|---|
+| 🇪🇬 | [Egypt](countries/egypt/README.md) | مصر | `egypt-` | Open for contributors |
+| 🇸🇩 | [Sudan](countries/sudan/README.md) | السودان | `sudan-` | Open for contributors |
+
+### Maghreb
+
+| | Country | الدولة | Prefix | Skills |
+|---|---|---|---|---|
+| 🇩🇿 | [Algeria](countries/algeria/README.md) | الجزائر | `algeria-` | Open for contributors |
+| 🇱🇾 | [Libya](countries/libya/README.md) | ليبيا | `libya-` | Open for contributors |
+| 🇲🇷 | [Mauritania](countries/mauritania/README.md) | موريتانيا | `mauritania-` | Open for contributors |
+| 🇲🇦 | [Morocco](countries/morocco/README.md) | المغرب | `morocco-` | Open for contributors |
+| 🇹🇳 | [Tunisia](countries/tunisia/README.md) | تونس | `tunisia-` | Open for contributors |
+
+### Horn of Africa and Indian Ocean
+
+| | Country | الدولة | Prefix | Skills |
+|---|---|---|---|---|
+| 🇰🇲 | [Comoros](countries/comoros/README.md) | جزر القمر | `comoros-` | Open for contributors |
+| 🇩🇯 | [Djibouti](countries/djibouti/README.md) | جيبوتي | `djibouti-` | Open for contributors |
+| 🇸🇴 | [Somalia](countries/somalia/README.md) | الصومال | `somalia-` | Open for contributors |
+
+### All countries (shared)
+
+| | Folder | Prefix | Skills |
+|---|---|---|---|
+| 🌍 | [`shared/`](shared/README.md) | `arabic-` | Open for contributors |
+
+<!-- countries:end -->
 
 ## How it works
 
@@ -54,42 +112,64 @@ arabkit/
 │   │   ├── README.md
 │   │   └── skills/
 │   │       └── egypt-copy/
-│   │           ├── SKILL.md
-│   │           └── references/
+│   │           ├── SKILL.md          ← when to use it + the guidance
+│   │           └── references/       ← long tables and datasets
 │   ├── saudi-arabia/
-│   └── ... (22 countries)
-├── shared/            # skills true for every Arab country (arabic-*)
-├── templates/         # starting point for a new SKILL.md
-├── countries.json     # folder names, prefixes, and basic country data
-└── scripts/validate.py
+│   └── … 22 countries
+├── shared/                            ← arabic-* skills for every country
+├── templates/SKILL.template.md        ← start here
+└── countries.json                     ← folders, prefixes, country data
 ```
 
-- A skill is a folder with a `SKILL.md` file: YAML frontmatter that tells the agent when to use it, followed by plain Markdown guidance. It works with Claude Code, Codex, Cursor, Gemini CLI, and other agents that load skills.
-- Every skill name starts with its country's prefix, such as `saudi-copy` or `morocco-product-ux`, so skills from different countries never collide when installed together.
-- `python scripts/validate.py` checks folder layout, naming, required sections, and links. It runs on every pull request.
+- **A skill is a folder with a `SKILL.md`.** Its frontmatter tells the agent when to load it; the body is plain Markdown guidance.
+- **Every name starts with its country's prefix,** such as `saudi-copy` or `morocco-product-ux`, so skills from different countries never collide when installed together.
+- **Country first, shared second.** If a rule depends on a dialect, currency, phone format, payment method, or law, it belongs in a country folder. Only what is true everywhere goes in `shared/`.
 
 ## Install skills
 
-Once skills are added, you will be able to install them with the [skills CLI](https://www.skills.sh):
+Once skills are published, install them with the [skills CLI](https://www.skills.sh):
 
 ```bash
 npx skills add asasemahmed/arabkit --skill <skill-name>
 ```
 
-## Contribute
+Pick only the countries you build for. A Saudi product might combine `saudi-copy`, `saudi-product-ux`, and the shared `arabic-rtl`.
 
-The best way to help is to take your own country:
+## Claim your country
 
-1. Pick your country's folder under [`countries/`](countries).
-2. Start from [`templates/SKILL.template.md`](templates/SKILL.template.md). A copy or product-UX skill is a good first one.
-3. Run `python scripts/validate.py` and open a pull request.
+The best contributors are people who build products for their own country.
 
-You can also [volunteer as a country maintainer](https://github.com/asasemahmed/arabkit/issues/new?template=country-maintainer.yml). Read [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
+1. **Open your country's folder** under [`countries/`](countries).
+2. **Copy the template** from [`templates/SKILL.template.md`](templates/SKILL.template.md). A `<prefix>-copy` or `<prefix>-product-ux` skill is a great first one.
+3. **Validate and open a pull request:**
+
+   ```bash
+   python scripts/build_readme.py
+   python scripts/validate.py
+   ```
+
+Want to own a country long-term? [Volunteer as a country maintainer](https://github.com/asasemahmed/arabkit/issues/new?template=country-maintainer.yml). Have an idea but no time to write it? [Propose a skill](https://github.com/asasemahmed/arabkit/issues/new?template=new-skill.yml).
+
+The full guide is in [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Principles
+
+1. **Local, not stereotyped.** Write for how people really read, pay, and trust, without caricature or forced slang.
+2. **Dialect is a decision.** Every skill says when the local dialect fits and when Modern Standard Arabic is better.
+3. **Facts have dates.** Providers, fees, laws, and number ranges change, so they are marked and reviewed.
+4. **Specific over generic.** Agents already know general engineering. Skills add what only local builders know.
+5. **Composable.** Country skills and shared skills load together without overlapping.
 
 ## Related
 
-[MasrKit](https://github.com/asasemahmed/MasrKit) is a complete set of Egyptian skills. It is the model for the structure and depth ArabKit aims for in every country.
+[**MasrKit**](https://github.com/asasemahmed/MasrKit) is a complete skill set for Egypt, covering copy, product UX, RTL, backend, and audits. It is the model for the depth ArabKit aims for in every country.
 
 ## License
 
-[MIT](LICENSE)
+ArabKit is open source under the [MIT License](LICENSE).
+
+<div align="center">
+
+**ArabKit · لغة واحدة، وأسواق كثيرة**
+
+</div>
