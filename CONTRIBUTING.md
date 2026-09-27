@@ -21,11 +21,14 @@ shared/skills/arabic-<topic>/SKILL.md                  # guidance true for every
 3. Keep the four required sections: `Purpose`, `Use this skill when`, `Workflow`, and `Quality checklist`.
 4. Put long tables and datasets (governorates or regions, terminology, provider lists) in a `references/` folder next to `SKILL.md`.
 5. Add your skill to the **Skills** list in the country README and change its status line.
-6. Run the validator:
+6. Update the country tables in both main READMEs, then run the validator:
 
    ```bash
+   python scripts/build_readme.py
    python scripts/validate.py
    ```
+
+   The validator fails if the README tables are out of date.
 
 7. Open a pull request. Say which real agent mistake the skill prevents.
 

@@ -163,10 +163,17 @@ def validate_links() -> list[str]:
     return errors
 
 
+def validate_readmes() -> list[str]:
+    sys.path.insert(0, str(ROOT / "scripts"))
+    from build_readme import stale
+
+    return [f"{name} is out of date: run python scripts/build_readme.py" for name in stale()]
+
+
 def main() -> int:
     countries, errors = load_countries()
     layout_errors, count = validate_layout(countries)
-    errors += layout_errors + validate_links()
+    errors += layout_errors + validate_links() + validate_readmes()
     if errors:
         print("Validation failed:")
         for error in errors:
