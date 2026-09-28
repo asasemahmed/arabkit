@@ -1,0 +1,16 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Shared Arabic foundations",
+      "description": "UI, RTL, copy, and search guidance that holds in every Arab country.",
+      "skills": ["arabic-ui", "arabic-rtl", "arabic-copy", "arabic-search"]
+    },
+    {
+      "title": "Egypt",
+      "description": "Skills for products built for Egyptian users.",
+      "skills": ["egypt-copy"]
+    }
+  ]
+}

@@ -8,7 +8,7 @@
 <p>
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-1F8A70?style=flat-square"></a>
   <a href="#الدول"><img alt="Countries: 22" src="https://img.shields.io/badge/countries-22-C99A2E?style=flat-square"></a>
-  <a href="#الدول"><img alt="Skills" src="https://img.shields.io/badge/skills-0-14211F?style=flat-square"></a>
+  <a href="#الدول"><img alt="Skills" src="https://img.shields.io/badge/skills-5-14211F?style=flat-square"></a>
   <a href="CONTRIBUTING.md"><img alt="Contributors welcome" src="https://img.shields.io/badge/contributors-welcome-1F8A70?style=flat-square"></a>
 </p>
 
@@ -26,7 +26,7 @@ ArabKit مكتبة مفتوحة المصدر لمهارات وكلاء الذك�
 
 تعمل المهارات مع Claude Code وCodex وCursor وGemini CLI، ومع أي وكيل يقرأ ملفات `SKILL.md`.
 
-> 🌱 **ArabKit في بدايته.** الهيكل جاهز ومجلدات الدول الاثنتان والعشرون مفتوحة، لكن لا توجد مهارات بعد. أول المساهمين في كل دولة هم من يحددون طريقة العمل فيها. [ساهم بدولتك.](#ساهم-بدولتك)
+> 🌱 **ArabKit في بدايته.** وصلت أول المهارات: أربع مهارات عربية مشتركة، و`egypt-copy` أول مهارة لدولة. أما مجلدات الدول الإحدى والعشرون الأخرى فمفتوحة، وأول المساهمين في كل دولة هم من يحددون طريقة العمل فيها. [ساهم بدولتك.](#ساهم-بدولتك)
 
 ## لماذا التقسيم حسب الدولة؟
 
@@ -74,7 +74,7 @@ ArabKit مكتبة مفتوحة المصدر لمهارات وكلاء الذك�
 
 | | الدولة | Country | البادئة | المهارات |
 |---|---|---|---|---|
-| 🇪🇬 | [مصر](countries/egypt/README.md) | Egypt | `egypt-` | مفتوح للمساهمة |
+| 🇪🇬 | [مصر](countries/egypt/README.md) | Egypt | `egypt-` | [`egypt-copy`](countries/egypt/skills/egypt-copy/SKILL.md) |
 | 🇸🇩 | [السودان](countries/sudan/README.md) | Sudan | `sudan-` | مفتوح للمساهمة |
 
 ### المغرب العربي
@@ -99,7 +99,7 @@ ArabKit مكتبة مفتوحة المصدر لمهارات وكلاء الذك�
 
 | | المجلد | البادئة | المهارات |
 |---|---|---|---|
-| 🌍 | [`shared/`](shared/README.md) | `arabic-` | مفتوح للمساهمة |
+| 🌍 | [`shared/`](shared/README.md) | `arabic-` | [`arabic-copy`](shared/skills/arabic-copy/SKILL.md) [`arabic-rtl`](shared/skills/arabic-rtl/SKILL.md) [`arabic-search`](shared/skills/arabic-search/SKILL.md) [`arabic-ui`](shared/skills/arabic-ui/SKILL.md) |
 
 <!-- countries:end -->
 
@@ -131,17 +131,27 @@ arabkit/
 
 ## تثبيت المهارات
 
-عند نشر المهارات، ثبّتها باستخدام [أداة skills](https://www.skills.sh):
+ثبّت المهارات باستخدام [أداة skills](https://www.skills.sh)، وستسألك عن المهارات والوكلاء الذين تريد التثبيت لهم:
 
 </div>
 
 ```bash
-npx skills add asasemahmed/arabkit --skill <skill-name>
+npx skills add asasemahmed/arabkit
 ```
 
 <div dir="rtl">
 
-اختر الدول التي تبني لها فقط. منتج سعودي مثلًا قد يجمع `saudi-copy` و`saudi-product-ux` مع المهارة المشتركة `arabic-rtl`.
+أو اختر المهارات مباشرة، مثلًا المهارات المشتركة مع مهارة المحتوى المصري:
+
+</div>
+
+```bash
+npx skills add asasemahmed/arabkit --skill arabic-ui --skill arabic-rtl --skill arabic-copy --skill egypt-copy
+```
+
+<div dir="rtl">
+
+اختر الدول التي تبني لها فقط، فمهارات الدول والمهارات المشتركة مصممة لتعمل معًا.
 
 ## ساهم بدولتك
 

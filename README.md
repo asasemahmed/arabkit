@@ -8,7 +8,7 @@
 <p>
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-1F8A70?style=flat-square"></a>
   <a href="#countries"><img alt="Countries: 22" src="https://img.shields.io/badge/countries-22-C99A2E?style=flat-square"></a>
-  <a href="#countries"><img alt="Skills" src="https://img.shields.io/badge/skills-0-14211F?style=flat-square"></a>
+  <a href="#countries"><img alt="Skills" src="https://img.shields.io/badge/skills-5-14211F?style=flat-square"></a>
   <a href="CONTRIBUTING.md"><img alt="Contributors welcome" src="https://img.shields.io/badge/contributors-welcome-1F8A70?style=flat-square"></a>
   <a href="https://github.com/asasemahmed/arabkit/actions/workflows/validate.yml"><img alt="Validate" src="https://github.com/asasemahmed/arabkit/actions/workflows/validate.yml/badge.svg"></a>
 </p>
@@ -26,7 +26,7 @@ ArabKit is an open-source library of AI agent skills, organized **by country**. 
 It works with Claude Code, Codex, Cursor, Gemini CLI, and any agent that loads `SKILL.md` files.
 
 > [!NOTE]
-> **ArabKit is just getting started.** The structure is ready and all 22 country folders are open, but there are no skills yet. The first contributors for each country decide how it is done. [Claim your country.](#claim-your-country)
+> **ArabKit is just getting started.** The first skills are in: four shared Arabic foundations and `egypt-copy` as the first country skill. The other 21 country folders are open, and their first contributors decide how each one is done. [Claim your country.](#claim-your-country)
 
 ## Why country by country?
 
@@ -74,7 +74,7 @@ Each folder has a README with the country's codes, skill prefix, and ideas for f
 
 | | Country | الدولة | Prefix | Skills |
 |---|---|---|---|---|
-| 🇪🇬 | [Egypt](countries/egypt/README.md) | مصر | `egypt-` | Open for contributors |
+| 🇪🇬 | [Egypt](countries/egypt/README.md) | مصر | `egypt-` | [`egypt-copy`](countries/egypt/skills/egypt-copy/SKILL.md) |
 | 🇸🇩 | [Sudan](countries/sudan/README.md) | السودان | `sudan-` | Open for contributors |
 
 ### Maghreb
@@ -99,7 +99,7 @@ Each folder has a README with the country's codes, skill prefix, and ideas for f
 
 | | Folder | Prefix | Skills |
 |---|---|---|---|
-| 🌍 | [`shared/`](shared/README.md) | `arabic-` | Open for contributors |
+| 🌍 | [`shared/`](shared/README.md) | `arabic-` | [`arabic-copy`](shared/skills/arabic-copy/SKILL.md) [`arabic-rtl`](shared/skills/arabic-rtl/SKILL.md) [`arabic-search`](shared/skills/arabic-search/SKILL.md) [`arabic-ui`](shared/skills/arabic-ui/SKILL.md) |
 
 <!-- countries:end -->
 
@@ -127,13 +127,19 @@ arabkit/
 
 ## Install skills
 
-Once skills are published, install them with the [skills CLI](https://www.skills.sh):
+Install with the [skills CLI](https://www.skills.sh). It asks which skills and which agents to install for:
 
 ```bash
-npx skills add asasemahmed/arabkit --skill <skill-name>
+npx skills add asasemahmed/arabkit
 ```
 
-Pick only the countries you build for. A Saudi product might combine `saudi-copy`, `saudi-product-ux`, and the shared `arabic-rtl`.
+Or pick skills directly. For example, the shared foundations plus Egyptian copy:
+
+```bash
+npx skills add asasemahmed/arabkit --skill arabic-ui --skill arabic-rtl --skill arabic-copy --skill egypt-copy
+```
+
+Pick only the countries you build for. Country skills and shared skills are designed to load together.
 
 ## Claim your country
 
