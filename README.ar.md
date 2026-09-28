@@ -12,7 +12,7 @@
   <a href="CONTRIBUTING.md"><img alt="Contributors welcome" src="https://img.shields.io/badge/contributors-welcome-1F8A70?style=flat-square"></a>
 </p>
 
-**[الدول](#الدول)** · **[كيف يعمل](#كيف-يعمل)** · **[ساهم](#ساهم-بدولتك)** · **[English](README.md)**
+**[الدول](#الدول)** · **[كيف يعمل](#كيف-يعمل)** · **[ساهم](#ساهم-بدولتك)** · **[خارطة الطريق](https://github.com/asasemahmed/arabkit/issues/16)** · **[النقاشات](https://github.com/asasemahmed/arabkit/discussions)** · **[English](README.md)**
 
 </div>
 
@@ -171,6 +171,8 @@ python scripts/validate.py
 <div dir="rtl">
 
 تريد أن تتولى دولة على المدى الطويل؟ [تطوّع مسؤولًا عن دولتك](https://github.com/asasemahmed/arabkit/issues/new?template=country-maintainer.yml). لديك فكرة وليس لديك وقت لكتابتها؟ [اقترح مهارة](https://github.com/asasemahmed/arabkit/issues/new?template=new-skill.yml).
+
+تبحث عن مهمة أصغر؟ اختر [مهمة مناسبة للبداية](https://github.com/asasemahmed/arabkit/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)، أو تابع [خارطة الطريق](https://github.com/asasemahmed/arabkit/issues/16) المثبّتة، أو [عرّف بنفسك](https://github.com/asasemahmed/arabkit/discussions/17) في النقاشات.
 
 الدليل الكامل في [CONTRIBUTING.md](CONTRIBUTING.md).
 

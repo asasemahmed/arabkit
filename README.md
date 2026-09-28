@@ -13,7 +13,7 @@
   <a href="https://github.com/asasemahmed/arabkit/actions/workflows/validate.yml"><img alt="Validate" src="https://github.com/asasemahmed/arabkit/actions/workflows/validate.yml/badge.svg"></a>
 </p>
 
-**[Countries](#countries)** · **[How it works](#how-it-works)** · **[Contribute](#claim-your-country)** · **[اقرأ بالعربية](README.ar.md)**
+**[Countries](#countries)** · **[How it works](#how-it-works)** · **[Contribute](#claim-your-country)** · **[Roadmap](https://github.com/asasemahmed/arabkit/issues/16)** · **[Discussions](https://github.com/asasemahmed/arabkit/discussions)** · **[اقرأ بالعربية](README.ar.md)**
 
 </div>
 
@@ -155,6 +155,8 @@ The best contributors are people who build products for their own country.
    ```
 
 Want to own a country long-term? [Volunteer as a country maintainer](https://github.com/asasemahmed/arabkit/issues/new?template=country-maintainer.yml). Have an idea but no time to write it? [Propose a skill](https://github.com/asasemahmed/arabkit/issues/new?template=new-skill.yml).
+
+Looking for something smaller? Pick a [good first issue](https://github.com/asasemahmed/arabkit/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22), follow the pinned [roadmap](https://github.com/asasemahmed/arabkit/issues/16), or [introduce yourself](https://github.com/asasemahmed/arabkit/discussions/17) in Discussions.
 
 The full guide is in [CONTRIBUTING.md](CONTRIBUTING.md).
 

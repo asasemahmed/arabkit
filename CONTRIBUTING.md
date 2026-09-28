@@ -2,6 +2,13 @@
 
 ArabKit grows one country at a time, and the people who know a country best are the ones who should write its skills. Thank you for helping.
 
+## Start here
+
+- The pinned [roadmap](https://github.com/asasemahmed/arabkit/issues/16) lists every country, what exists, and what is open.
+- [Good first issues](https://github.com/asasemahmed/arabkit/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) are small tasks that do not need a whole skill: reviews, data checks, and translations.
+- Questions and ideas go in [Discussions](https://github.com/asasemahmed/arabkit/discussions). Say hello in the [introductions thread](https://github.com/asasemahmed/arabkit/discussions/17).
+- Before starting a skill, comment on its issue (or open one) so two people do not write the same thing.
+
 ## Where things go
 
 ```text
